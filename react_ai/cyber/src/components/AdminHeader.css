@@ -1,0 +1,37 @@
+.welcome-admin {
+  animation: fadeInDown 1s ease-out;
+  gap: 10px;
+}
+
+.admin-icon {
+  font-size: 24px;
+  animation: bounce 1.5s infinite;
+}
+
+.welcome-text {
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+}
+
+/* Fade-in from top */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Bouncing icon */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}

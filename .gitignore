@@ -1,0 +1,40 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Django
+*.sqlite3
+*.log
+media/
+
+# Virtual environments
+venv/
+
+# Environment variables
+.env
+
+# Node & React
+react_ai/cyber/node_modules/
+react_ai/cyber/public/
+
+node_modules/
+react_ai/luk/
+react_ai/adm/
+
+build/
+
+# Misc
+*.h5
+*.keras
+*.whl
+.DS_Store
+
+Dataset/
+models/
+csai/
+
+backend/ai/models/
+backend/media/
+backend/temp_uploads/
+backend/uploads/
+backend/venv/
